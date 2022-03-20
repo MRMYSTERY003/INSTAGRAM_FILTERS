@@ -3,7 +3,7 @@ import cv2
 import random
 
 # Load the cascade
-face_cascade = cv2.CascadeClassifier('F:\\project\\insta filetrs\\Face_detection\\data.xml')
+face_cascade = cv2.CascadeClassifier('./data.xml')
 
 # To capture video from webcam. 
 cap = cv2.VideoCapture(0)
